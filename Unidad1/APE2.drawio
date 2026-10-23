@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="T1oBhHH3sASiqURA1hKe">
+    <mxGraphModel dx="2020" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-8" edge="1" parent="1" source="p7FrPr1-6wKShI9Mhd6z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p7FrPr1-6wKShI9Mhd6z-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="INICIO" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-10" edge="1" parent="1" source="p7FrPr1-6wKShI9Mhd6z-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p7FrPr1-6wKShI9Mhd6z-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-7" parent="1" style="whiteSpace=wrap;html=1;" value="CONVERSION_GB_A_MB= 1024" vertex="1">
+          <mxGeometry height="70" width="220" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-12" edge="1" parent="1" source="p7FrPr1-6wKShI9Mhd6z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p7FrPr1-6wKShI9Mhd6z-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer GB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer cant_doc&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer tam_doc&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer cant_ima&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Ler tam_ima&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer cant_vid&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer tam_vid&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer cant_prog&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Leer tam_prog&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="230" x="285" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-14" edge="1" parent="1" source="p7FrPr1-6wKShI9Mhd6z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p7FrPr1-6wKShI9Mhd6z-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-11" parent="1" style="whiteSpace=wrap;html=1;" value="espacio_doc = cant_doc * tam_doc&lt;div&gt;espacio_ima = cant_ima * tam_ima&lt;/div&gt;&lt;div&gt;espacio_vid = cant_vid * tam_vid&lt;/div&gt;&lt;div&gt;espacio_prog = cant_prog * tam_prg&lt;/div&gt;&lt;div&gt;espacio_total = espacio_doc + espacio_ima + espacio_vid +&amp;nbsp; espacio_prog&lt;/div&gt;&lt;div&gt;espacio_total_gb = espacio_total /&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CONVERSION_GB_A_MB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;porcentaje = (espacio_total_gb / GB ) * 100&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="510" x="145" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-17" edge="1" parent="1" source="p7FrPr1-6wKShI9Mhd6z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p7FrPr1-6wKShI9Mhd6z-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Presentar (&quot;Espacio ocupado por documentos&quot; + espacio_doc)&lt;/div&gt;&lt;div&gt;Presentar (&quot;Espacio ocupado por imagenes&quot; + espacio_ima)&lt;/div&gt;&lt;div&gt;Presentar (&quot;Espacio ocupado por videos&quot; + espacio_vid)&lt;/div&gt;&lt;div&gt;Presentar (&quot;Espacio ocupado por programas&quot; + espacio_prog)&lt;/div&gt;&lt;div&gt;Presentar (&quot;Espacio total ocupado&quot; + espacio_total)&lt;/div&gt;&lt;div&gt;Presentar (&quot;Espacio total en GB&quot; + espacio_total_gb)&lt;/div&gt;&lt;div&gt;Presentar (&quot;Porcentaje de almacenamiento utilizado&quot; + porcentaje)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="470" x="165" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="p7FrPr1-6wKShI9Mhd6z-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="FIN" vertex="1">
+          <mxGeometry height="80" width="110" x="345" y="970" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
